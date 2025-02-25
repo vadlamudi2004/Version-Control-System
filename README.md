@@ -14,7 +14,7 @@ Press enter for all inputs and it will create two files in ~/.ssh folder-id ed25
 
 3. In your Github Account settings (https://github.com/settings/profile), click on "SSH and GPG Keys". (Make sure you are logged in using beingzero id).
 
-4. On the SSH and GPG Keys page (https://github com/settings/keys), click on "New SSH key. Give an easy to understand title and paste the contents of the "id_ed25519.pub" file in the Key section. Click "Add SSH Key".
+4. On the SSH and GPG Keys page (https://github.com/settings/keys), click on "New SSH key. Give an easy to understand title and paste the contents of the "id_ed25519.pub" file in the Key section. Click "Add SSH Key".
 
 5. You are ready to work with beingzero github repositories.
 
