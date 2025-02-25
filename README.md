@@ -8,7 +8,7 @@ Use the following steps to set up SSH based authentication:
 1. Create a ssh key on your system's terminal using following command   
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
-Press enter for all inputs and it will create two files in ~/.ssh folder-id ed25519 and id_ed25519 pub
+Press enter for all inputs and it will create two files in ~/.ssh folder-id_ed25519 and id_ed25519 pub
 
 2. Copy the contents of id_ed25519.pub file.
 
@@ -19,11 +19,10 @@ Press enter for all inputs and it will create two files in ~/.ssh folder-id ed25
 5. You are ready to work with beingzero github repositories.
 
 NOTE: 
-For Windows users go to services by searching in the search bar.
-Next search openSSH Authentication Agent.
-Right click on it and select Automatic from startup type.
-
-After that once again right click on openSSH Authentication Agent & start.
+1. For Windows users go to services by searching in the search bar.
+2. Next search openSSH Authentication Agent.
+3. Right click on it and select Automatic from startup type.
+4. After that once again right click on openSSH Authentication Agent & start.
 
 # Contributing to existing projects
 
