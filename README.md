@@ -6,7 +6,7 @@
 Use the following steps to set up SSH based authentication:
 
 1. Create a ssh key on your system's terminal using following command   
-ssh-keygen -t ed25519-C"<your email id>"
+ssh-keygen -t ed25519 -C "your_email@example.com"
 
 Press enter for all inputs and it will create two files in ~/.ssh folder-id ed25519 and id_ed25519 pub
 
